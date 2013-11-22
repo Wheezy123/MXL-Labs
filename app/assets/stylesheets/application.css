@@ -11,3 +11,13 @@
  *= require_self
  *= require_tree .
  */
+
+ #logo {
+ 	margin-left: 35%;
+ 	height: 30%;
+ 	width: 30%;
+ }
+
+ .learn_more{
+ 	margin: auto;
+ }
