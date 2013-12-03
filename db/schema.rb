@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131114222404) do
+ActiveRecord::Schema.define(version: 20131203172838) do
 
   create_table "resellers", force: true do |t|
     t.string   "first_name"
@@ -21,6 +21,10 @@ ActiveRecord::Schema.define(version: 20131114222404) do
     t.string   "phone_number"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.decimal  "number_of_apps"
+    t.string   "type_of_business"
+    t.text     "client_info"
+    t.string   "location"
   end
 
 end
