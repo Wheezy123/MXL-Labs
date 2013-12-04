@@ -24,6 +24,22 @@
   <strong>Phone number:</strong>
   <%= @reseller.phone_number %>
 </p>
+<p>
+  <strong>Number of Apps:</strong>
+  <%= @reseller.number_of_apps %>
+</p>
+<p>
+  <strong>Type of Business:</strong>
+  <%= @reseller.type_of_business %>
+</p>
+<p>
+  <strong>Your Location:</strong>
+  <%= @reseller.location %>
+</p>
+<p>
+  <strong>Client Info:</strong>
+  <%= @reseller.client_info %>
+</p>
 
 <%= link_to 'Edit', edit_reseller_path(@reseller) %> |
 <%= link_to 'Back', resellers_path %>

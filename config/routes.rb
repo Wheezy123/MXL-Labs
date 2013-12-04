@@ -1,7 +1,7 @@
 MXLLabs::Application.routes.draw do
   resources :resellers
 
-  root to: 'resellers#index'
+  root to: 'resellers#welcome'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
