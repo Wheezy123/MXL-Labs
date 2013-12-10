@@ -8,59 +8,10 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require font-awesome
  *= require_self
  *= require_tree .
  */
-
- #logo {
- 	margin-left: 35%;
- 	height: 30%;
- 	width: 30%;
- }
-
- #contact-form {
- 	
- }
-
- #features{
- 	margin-left: 5%;
-	margin-right: 5%;
- }
-
- .learn_more.btn.btn-primary{
- 	margin-left: 45%;
- 	margin-top: 4em;
- }
-
- .scroll.btn.btn-primary{
- 	margin-left: 5%;
- }
-
-#assets {
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
-#about {
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
-#form-fields-mxl {
-	margin-left: 3em;
-}
-
-.back-links{
-	margin-left: 3em;
-}
-
-.btn.btn-primary.pull-right.btn-block' {
-	font: white;
-}
-
-#new-reseller-header {
-	margin-left: 1em;
-}
 
 
 

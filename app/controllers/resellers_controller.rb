@@ -7,6 +7,10 @@ class ResellersController < ApplicationController
     @resellers = Reseller.all
   end
 
+  def welcome
+    @resellers = Reseller.all
+  end
+
   # GET /resellers/1
   # GET /resellers/1.json
   def show

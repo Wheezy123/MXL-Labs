@@ -54,3 +54,49 @@
     </div>
   </div>
 <% end %>
+
+<% content_for :slider  do %>
+<script type="text/javascript">
+ $(function() {
+
+  function nextPage(curDiv, nextDiv){
+    console.log("you clicked me!");
+
+    if ($('#oneone').is(':visible')){
+      curDiv = $('#oneone');
+      nextDiv = $('#twotwo');
+      
+    } 
+    if ($('#twotwo').is(':visible')){
+      curDiv = $('#twotwo');
+      nextDiv = $('#threethree');
+    } 
+    if ($('#threethree').is(':visible')){
+      curDiv = $('#threethree');
+      nextDiv = $('#fourfour');
+    } 
+    if ($('#fourfour').is(':visible')){
+      curDiv = $('#fourfour');
+      nextDiv = $('#fivefive');
+    } 
+
+    
+    
+    $(nextDiv).slideDown(1000);
+    $(curDiv).slideUp(1000);
+
+  };
+
+
+ 
+  $('.nextButtonOne').click(function(){  console.log("you clicked me!")});
+
+  $('.nextButtonTwo').click(nextPage);
+
+  $('.nextButtonThree').click(nextPage);
+
+  $('.nextButtonFour').click(nextPage);
+
+  });
+  </script>
+<% end %>
